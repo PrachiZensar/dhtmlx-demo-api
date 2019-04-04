@@ -30,3 +30,5 @@ app.get('/getUnreadNotificationCount/:id', function(req, res, next) {
 		"data":4
 	});
 });
+
+app.listen(process.env.PORT || 8000);
